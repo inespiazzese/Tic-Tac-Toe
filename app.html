@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic tac toe</title>
@@ -45,15 +46,30 @@
   <body>
     <h1 class="title">Tic tac toe</h1>
     <div class="grid-container">
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
+      <div class="grid-item" id="one" onClick="getId(this.id)" value="0"></div>
+      <div class="grid-item" id="two" onClick="getId(this.id)" value="0"></div>
+      <div
+        class="grid-item"
+        id="three"
+        onClick="getId(this.id)"
+        value="0"
+      ></div>
+      <div class="grid-item" id="four" onClick="getId(this.id)" value="0"></div>
+      <div class="grid-item" id="five" onClick="getId(this.id)" value="0"></div>
+      <div class="grid-item" id="six" onClick="getId(this.id)" value="0"></div>
+      <div
+        class="grid-item"
+        id="seven"
+        onClick="getId(this.id)"
+        value="0"
+      ></div>
+      <div
+        class="grid-item"
+        id="eight"
+        onClick="getId(this.id)"
+        value="0"
+      ></div>
+      <div class="grid-item" id="nine" onClick="getId(this.id)" value="0"></div>
     </div>
     <div>
       <button class="button" type="submit" form="form1" value="Submit">
