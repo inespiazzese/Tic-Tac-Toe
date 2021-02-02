@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic tac toe</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #a2bada;
+        padding: 40px 20px 40px 20px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(191, 191, 191, 1);
+        padding: 40px 20px 40px 20px;
+
+        font-size: 30px;
+        text-align: center;
+      }
+      .button {
+        background-color: #a2bada;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .button {
+        position: fixed;
+        bottom: 10px;
+        left: 10%;
+        margin-left: -104.5px;
+      }
+      h1 {
+        text-align: center;
+        color: #a2bada;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Tic tac toe</h1>
+    <div class="grid-container">
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+    </div>
+    <div>
+      <button class="button" type="submit" form="form1" value="Submit">
+        Submit
+      </button>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
